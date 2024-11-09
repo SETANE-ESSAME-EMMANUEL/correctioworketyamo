@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    background-color: gainsboro;
+  }
+  
+.art{
+    margin-left: 25%;
+    height: 100%;
+    width: 50%;
+    border-style: solid;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .column img{
+
+    height: 50%;
+    border-radius: 20px;
+  }
+ 
+  .columnz {
+    float: right;
+    width: 55.33%;
+  }
+  img:hover{
+    transform: scale(1.5);
+  }
